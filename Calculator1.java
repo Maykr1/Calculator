@@ -1,7 +1,7 @@
 package Calculator;
 import java.util.Scanner;
 
-//Calculator1 uses 3 inputs. Two of them are numbers and one is the operation of the calculator
+//Calculator1 uses 3 inputs. Two of them are doubles and one is the operation of the calculator
 
 class Calculator1 {
     public Calculator1() {
