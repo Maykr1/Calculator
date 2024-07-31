@@ -8,27 +8,8 @@ class Calculator1 {
         
     }
 
-    public double add(double a, double b) {
-        return a + b;
-    }
-
-    public double sub(double a, double b) {
-        return a + b;
-    }
-
-    public double mul(double a, double b) {
-        return a + b;
-    }
-
-    public double div(double a, double b) {
-        return a + b;
-    }
-
-    public double mod(double a, double b) {
-        return a + b;
-    }
     public static void main(String[] args) {
-        Calculator1 cal = new Calculator1();
+        CalculatorFunc cal = new CalculatorFunc();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("What is the first number?");
@@ -50,6 +31,7 @@ class Calculator1 {
         } else {
             System.out.println(cal.mod(a, b));
         }
+        
         scanner.close();
     }
 }
